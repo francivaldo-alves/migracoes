@@ -1,0 +1,44 @@
+
+.number-display {
+  text-align: center;
+  margin-top: 60px;
+}
+h1{
+color:#0b0b64;
+font-family: 'Inter';
+font-size: 45px
+
+}
+h2{
+ margin-top: 80px;
+color:#0b0b64;
+font-family: 'Inter';
+font-size: 20px
+
+}
+
+#numero {
+  font-size: 72px;
+  text-align: center;
+  margin-top: 15px;
+  font-family: 'Inter';
+}
+
+.progress {
+  height: 60px;
+  border-radius: 20px;
+  display: flex;
+  align-content:space-between;
+}
+
+.bg-warning {
+  background-color: #ff8c00 !important;
+}
+.message {
+  font-size: 15px;
+  margin-right: 15px;
+  text-color:#fff
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
