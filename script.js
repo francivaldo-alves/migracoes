@@ -1,6 +1,6 @@
-let totalMigracao = 100;
+let totalMigracao = 26;
 let meta = 2106;
-let dataUltimaAtualizacao = "15/04/2024"
+let dataUltimaAtualizacao = "12/04/2024"
 
 document.querySelector("#data").innerHTML = " Terminais migrados até: " + dataUltimaAtualizacao
 document.querySelector("#numero").innerHTML = totalMigracao
@@ -43,6 +43,9 @@ if (porcentagemFormatada <= 50) {
 setTimeout(() => {
   document.location.reload();
 }, 180000);
+
+
+
 
 
 
