@@ -1,5 +1,5 @@
 let totalMigracao = 100;
-let meta = 2000;
+let meta = 2106;
 let dataUltimaAtualizacao = "15/04/2024"
 
 document.querySelector("#data").innerHTML = " Terminais migrados até: " + dataUltimaAtualizacao
@@ -22,15 +22,15 @@ message.textContent = ` ${porcentagemFormatada}%`;
 
 
 // Definindo a cor da barra de progresso e a mensagem com base na porcentagem
-if (porcentagemFormatada <= 84.99) {
+if (porcentagemFormatada <= 50) {
+  progressBar.classList.add('bg-danger');
+  message.textContent += '';
+
+} else if (porcentagemFormatada <= 75) {
   progressBar.classList.add('bg-warning');
   message.textContent += ' - migrados!';
 
-} else if (porcentagemFormatada <= 89.99) {
-  progressBar.classList.add('bg-info');
-  message.textContent += ' - migrados!';
-
-} else if (porcentagemFormatada <= 94.99) {
+} else if (porcentagemFormatada <= 98) {
 
   progressBar.classList.add('bg-primary');
   message.textContent += ' - migrados!';
