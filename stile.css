@@ -2,7 +2,7 @@
 .number-display {
   font-size: 48px;
   text-align: center;
-  margin-top: 20%;
+  margin-top: 60px;
 }
 h1{
 color:#0b0b64;
@@ -11,7 +11,7 @@ font-size: 45px
 
 }
 h2{
- margin-top: 80px;
+ margin-top: 60px;
 color:#0b0b64;
 font-family: 'Inter';
 font-size: 25px
