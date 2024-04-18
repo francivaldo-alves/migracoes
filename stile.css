@@ -1,5 +1,4 @@
 
-
 .number-display {
   font-size: 48px;
   text-align: center;
@@ -38,7 +37,7 @@ font-size: 25px
 .messege{
   font-size: 20px;
   margin-right: 15px;
-  color:black;
+  color: #FFFFFF;
   margin-top:10px;
   font-weight: bold;
   display:flex;
