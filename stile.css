@@ -1,7 +1,7 @@
 .number-display {
   font-size: 48px;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 120px;
 }
 h1{
 color:#0b0b64;
@@ -10,11 +10,10 @@ font-size: 45px
 
 }
 h2{
- margin-top: 120px;
+  margin-button:120px;
 color:#0b0b64;
 font-family: 'Inter';
-font-size: 25px;
-display:flex;
+font-size: 30px
 
 }
 
@@ -23,16 +22,12 @@ display:flex;
   text-align: center;
   margin-top: 15px;
   font-family: 'Inter';
-  margin-top: 80px;
-  
-
 }
 
 .progress {
   height: 60px;
   border-radius: 20px;
   display: flex;
- 
 }
 
 .bg-warning {
@@ -44,9 +39,5 @@ display:flex;
   font-weight: bold;
   margin: auto;
   display:flex;
- 
   
-}
-#data{
-  text-align: center;
 }
