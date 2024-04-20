@@ -4,13 +4,14 @@
   margin-top: 120px;
 }
 h1{
+ padding:10px;
 color:#0b0b64;
 font-family: 'Inter';
 font-size: 45px
 
 }
 h2{
-  margin-button:120px;
+ margin-button:120px;
 color:#0b0b64;
 font-family: 'Inter';
 font-size: 30px
@@ -22,6 +23,7 @@ font-size: 30px
   text-align: center;
   margin-top: 15px;
   font-family: 'Inter';
+  color: #0b0b64;
 }
 
 .progress {
@@ -40,4 +42,16 @@ font-size: 30px
   margin: auto;
   display:flex;
   
+
+ 
 }
+.fa-solid{
+  padding:60px;
+  color: #0b0b64;
+}
+.data{
+  display:block;  
+  padding:60px;
+  width:auto;
+  height:auto;
+}   
