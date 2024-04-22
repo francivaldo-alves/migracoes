@@ -27,7 +27,7 @@ font-size: 40px
 }
 
 .progress {
-  height: 120px;
+  height: 90px;
   border-radius: 20px;
   display: flex;
 }
@@ -36,13 +36,12 @@ font-size: 40px
   background-color: #ff8c00 !important;
 }
 .messege{
-  font-size: 35px;
+  font-size: 30px;
   color: #FFFFFF;
   font-weight: bold;
   margin: auto;
   display:flex;
   
-
  
 }
 .fa-solid{
