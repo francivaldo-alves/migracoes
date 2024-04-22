@@ -1,24 +1,24 @@
 .number-display {
-  font-size: 48px;
+  font-size: 55px;
   text-align: center;
-  margin-top: 120px;
+  margin-top: 50px;
 }
 h1{
- padding:10px;
+ padding:5px;
 color:#0b0b64;
 font-family: 'Inter';
-font-size: 45px
+font-size: 55px
 
 }
 h2{
-margin-button:120px;
+margin-button:100px;
 color:#0b0b64;
 font-family: 'Inter';
-font-size: 30px
+font-size: 40px
 
 }
 
-#numero {
+#numero{
   font-size: 72px;
   text-align: center;
   margin-top: 15px;
@@ -27,7 +27,7 @@ font-size: 30px
 }
 
 .progress {
-  height: 60px;
+  height: 120px;
   border-radius: 20px;
   display: flex;
 }
@@ -36,7 +36,7 @@ font-size: 30px
   background-color: #ff8c00 !important;
 }
 .messege{
-  font-size: 21px;
+  font-size: 35px;
   color: #FFFFFF;
   font-weight: bold;
   margin: auto;
@@ -46,7 +46,7 @@ font-size: 30px
  
 }
 .fa-solid{
-  padding:60px;
+  padding:50px;
   color: #000080
 }
 .data{
