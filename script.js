@@ -42,7 +42,7 @@ if (porcentagemFormatada <= 50) {
 
 setTimeout(() => {
   document.location.reload();
-}, 180000);
+}, 90000);
 
 
 
