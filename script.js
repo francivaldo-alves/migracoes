@@ -28,16 +28,16 @@ if (porcentagemFormatada <= 50) {
 
 } else if (porcentagemFormatada <= 75) {
   progressBar.classList.add('bg-warning');
-  message.textContent += ' - migrados!';
+  message.textContent += ' ';
 
 } else if (porcentagemFormatada <= 98) {
 
   progressBar.classList.add('bg-primary');
-  message.textContent += ' - migrados!';
+  message.textContent += ' ';
 
 } else {
   progressBar.classList.add('bg-success');
-  message.textContent += ' - Migrados!';
+  message.textContent += ' ';
 }
 
 setTimeout(() => {
