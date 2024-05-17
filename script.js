@@ -1,5 +1,5 @@
-let totalMigracao = 1041;
-let meta = 2075;
+let totalMigracao = 1092;
+let meta = 2071;
 let dataUltimaAtualizacao = "16/05/2024"
 
 document.querySelector("#data").innerHTML = " Terminais migrados até: " + dataUltimaAtualizacao
