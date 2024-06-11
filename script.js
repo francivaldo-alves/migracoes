@@ -1,4 +1,4 @@
-let totalMigracao = 1778;
+let totalMigracao = 1805;
 let meta = 1989;
 let dataUltimaAtualizacao = "08/06/2024"
 
