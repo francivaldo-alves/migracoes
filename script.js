@@ -50,15 +50,16 @@ const atualizarSpinner = (porcentagem) => {
   if (porcentagem <= 50) {
     spinnerCount = 1; // 1 ícone para até 50%
   } else if (porcentagem <= 75) {
-    spinnerCount = 2; // 2 ícones para entre 51% e 75%
+    spinnerCount = 1; // 2 ícones para entre 51% e 75%
   } else {
-    spinnerCount = 3; // 3 ícones para acima de 75%
+    spinnerCount = 1; // 3 ícones para acima de 75%
+	;
   }
 
   // Cria e insere os ícones de acordo com a contagem
   for (let i = 0; i < spinnerCount; i++) {
     const spinnerIcon = document.createElement('i');
-    spinnerIcon.className = 'fa-solid fa-cog fa-xl cog-animation';
+    spinnerIcon.className = 'fa fa-spinner fa-pulse fa-beat-fade fa-1x fa-fw';
     
     // Adiciona a cor do ícone baseado na classe da barra de progresso
     if (porcentagem <= 50) {
@@ -66,8 +67,10 @@ const atualizarSpinner = (porcentagem) => {
     } else if (porcentagem <= 75) {
       spinnerIcon.style.color = '#ff8c00'; // bg-warning
     } else if (porcentagem < 98) {
+		 
       spinnerIcon.style.color = '#007BFF'; // bg-primary
     } else {
+		spinnerIcon.className = "fa-regular fa-beat-fade fa-1x fa-fw fa-circle-check"
       spinnerIcon.style.color = '#28A745'; // bg-success
     }
 
