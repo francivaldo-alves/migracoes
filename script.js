@@ -1,6 +1,6 @@
 const totalMigracao = 6387;
 const meta = 7412;
-const dataUltimaAtualizacao = "15/10/2024";
+const dataUltimaAtualizacao = "18/10/2024";
 
 // Atualiza a data e o número na interface
 document.querySelector("#data").innerHTML = `Terminais migrados até: ${dataUltimaAtualizacao}`;
