@@ -1,4 +1,4 @@
-const totalMigracao = 6298;
+const totalMigracao = 6387;
 const meta = 7412;
 const dataUltimaAtualizacao = "15/10/2024";
 
