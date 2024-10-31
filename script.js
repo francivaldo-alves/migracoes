@@ -1,5 +1,5 @@
-const totalMigracao = 6883;
-const meta = 7400;
+const totalMigracao = 6933;
+const meta = 7406;
 const dataUltimaAtualizacao = "29/10/2024";
 
 // Atualiza a data e o número na interface
