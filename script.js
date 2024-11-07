@@ -30,7 +30,7 @@ const atualizarBarraDeProgresso = (porcentagem) => {
     progressBar.classList.add('bg-danger');
   } else if (porcentagemNumerica <= 75) {
     progressBar.classList.add('bg-warning');
-  } else if (porcentagemNumerica < 98) {
+  } else if (porcentagemNumerica < 100) {
     progressBar.classList.add('bg-primary');
   } else {
     progressBar.classList.add('bg-success');
@@ -66,13 +66,15 @@ const atualizarSpinner = (porcentagem) => {
       spinnerIcon.style.color = '#dc3545'; // bg-danger
     } else if (porcentagem <= 75) {
       spinnerIcon.style.color = '#ff8c00'; // bg-warning
-    } else if (porcentagem < 98) {
+    } else if (porcentagem < 100) {
 		 
       spinnerIcon.style.color = '#007BFF'; // bg-primary
     } else {
-		spinnerIcon.className = "fa-regular fa-beat-fade fa-1x fa-fw fa-circle-check"
-      spinnerIcon.style.color = '#28A745'; // bg-success
+	spinnerIcon.className = "fa-regular fa-beat-fade fa-1x fa-fw fa-circle-check"
+        spinnerIcon.style.color = '#28A745'; // bg-success
+	document.querySelector("#data").innerHTML = `Parabéns a todos que contribuíram para esse grande feito!`
     }
+
 
     spinnerContainer.appendChild(spinnerIcon);
   }
